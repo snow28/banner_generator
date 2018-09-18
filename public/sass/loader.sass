@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300')
+
+@mixin animation($str)
+  -webkit-animation: $str
+  -moz-animation: $str
+  animation: $str
+
+
+$size: 1em
+
+$bg: #2D8ED0
+$color: black
+
+$duration: 2000ms
+$type: linear
+@-webkit-keyframes pulse
+  0%, 100%
+    opacity: 1
+  50%
+    opacity: 0.25
+
+@keyframes pulse
+  0%, 100%
+    opacity: 1
+  50%
+    opacity: 0.25
+
+
+@-webkit-keyframes load
+  0%, 100%
+    -webkit-transform: scale(1) translateX(0)
+    transform: scale(1) translateX(0)
+  25%
+    -webkit-transform: scale(0.25) translateX(-$size * 6.5)
+    transform: scale(0.25) translateX(-$size * 6.5)
+  50%
+    -webkit-transform: scale(0.15) translateX(0)
+    transform: scale(0.15) translateX(0)
+  75%
+    -webkit-transform: scale(0.25) translateX($size * 6.5)
+    transform: scale(0.25) translateX($size * 6.5)
+
+
+@keyframes load
+  0%, 100%
+    -webkit-transform: scale(1) translateX(0)
+    transform: scale(1) translateX(0)
+  25%
+    -webkit-transform: scale(0.25) translateX(-$size * 6.5)
+    transform: scale(0.25) translateX(-$size * 6.5)
+  50%
+    -webkit-transform: scale(0.15) translateX(0)
+    transform: scale(0.15) translateX(0)
+  75%
+    -webkit-transform: scale(0.25) translateX($size * 6.5)
+    transform: scale(0.25) translateX($size * 6.5)
+
+
+.ball
+  width: $size
+  height: $size
+  margin: 0 auto
+  border-radius: $size
+  background: $color
+  @include animation(load $duration $type infinite)
+.container
+  text-align: center
+  margin-top: 40px
+  margin-bottom: 40px
+  span
+    font-weight: 600
+    margin-top: 5px
+    display: block
+    color: $color
+    text-transform: uppercase
+    font-family: 'Roboto', sans-serif
+    @include animation(pulse $duration $type infinite)

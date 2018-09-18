@@ -1,0 +1,72 @@
+.content-wrapper .long-legal-notes p:first-child {
+  margin-top: -15px; }
+.content-wrapper .long-legal-notes.width-468 p:first-child {
+  margin-top: -22px; }
+.content-wrapper .template-normal .banner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-transform: uppercase; }
+  .content-wrapper .template-normal .banner p:first-child {
+    font-weight: 700;
+    font-size: 24px; }
+  .content-wrapper .template-normal .banner p:last-child {
+    font-size: 16px; }
+  .content-wrapper .template-normal .banner.width-468 p:first-child {
+    font-size: 14px; }
+  .content-wrapper .template-normal .banner.width-468 p:last-child {
+    font-size: 10px; }
+  .content-wrapper .template-normal .banner.width-120 p {
+    left: 0;
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    position: relative;
+    top: -180px; }
+    .content-wrapper .template-normal .banner.width-120 p span {
+      display: block; }
+  .content-wrapper .template-normal .banner.width-120 p:first-child {
+    font-size: 11px;
+    font-weight: 600 !important; }
+    .content-wrapper .template-normal .banner.width-120 p:first-child span {
+      font-weight: 700;
+      font-size: 36px; }
+  .content-wrapper .template-normal .banner.width-120 p:nth-child(2) {
+    font-size: 10px;
+    margin: 3px 0; }
+    .content-wrapper .template-normal .banner.width-120 p:nth-child(2) span {
+      margin-bottom: 4px;
+      font-size: 18px;
+      font-weight: 600; }
+  .content-wrapper .template-normal .banner.width-160 p {
+    left: 0;
+    width: 99%;
+    text-align: center;
+    margin: 0;
+    position: relative;
+    top: -180px !important; }
+    .content-wrapper .template-normal .banner.width-160 p span {
+      display: block; }
+  .content-wrapper .template-normal .banner.width-160 p:first-child {
+    font-size: 12px;
+    font-weight: 600 !important; }
+    .content-wrapper .template-normal .banner.width-160 p:first-child span {
+      font-weight: 700;
+      font-size: 46px; }
+  .content-wrapper .template-normal .banner.width-160 p:nth-child(2) {
+    font-size: 10px; }
+    .content-wrapper .template-normal .banner.width-160 p:nth-child(2) span {
+      font-weight: 600;
+      font-size: 17px; }
+
+/*# sourceMappingURL=template-normal.css.map */

@@ -1,0 +1,171 @@
+extends layout
+
+block content
+    .inner-content-wrapper
+        .settings
+            h2.js-select-template-header
+                |Select Banner Template
+            p.settings-template.js-template
+                |Normal
+            ul.settings-template-list.hide.js-template-list
+                li(data-type='template-button' data-link='true').js-template-list-item
+                    |With button
+                li(data-type='template-normal' data-link='false').js-template-list-item.selected
+                    |Normal
+
+            h2.font.js-hide-when-history
+                |Select Font
+            // .SETTINGS-TEMPLATE class used only for styling purposes
+            p.settings-template.settings-font.js-select-font.js-hide-when-history
+                | Teko
+            ul.settings-font-list.hide.js-font-list.js-hide-when-history
+                li(data-family="'Teko', sans-serif").js-font-item.selected
+                    |Teko
+                li(data-family="'Oswald', sans-serif").js-font-item
+                    |Oswald
+                li(data-family="'Montserrat', sans-serif").js-font-item
+                    |Montserrat
+            h2.settings-durationHeader.js-hide-when-history
+                |Each slide duration
+            p.js-input-floating-label.settings-duration-label.js-hide-when-history
+                |(u can use number only)
+            input(type='text' name='title'  value='3000').js-slide-duration.input.js-hide-when-history
+            p.ms.js-hide-when-history
+                |ms
+            .settings-size.js-size-settings-wrapper
+                h2
+                    |Select banner size
+                h3.hide
+                    |Select banners size you're looking for
+                ul.settings-sizeList
+                    li(data-width='728' data-height='90' data-id='1').js-size-select
+                        |728x90
+                    li(data-width='468' data-height='60' data-id='2').js-size-select
+                        |468x60
+                    li(data-width='300' data-height='250' data-id='3').js-size-select
+                        |300x250
+                    li(data-width='250' data-height='250' data-id='4').js-size-select
+                        |250x250
+                    li(data-width='160' data-height='600' data-id='5').js-size-select
+                        |160x600
+                    li(data-width='120' data-height='600' data-id='6').js-size-select
+                        |120x600
+        img(src='./public/styling-images/big-plus.png').bigPlus.js-big-plus
+        .search.js-search.hide
+            p
+                | Enter banner title
+            span.js-search-label
+                | Enter title to search here
+            input(type='text').js-search-title-input
+
+        // HISTORY content filled by JS
+        .preview.js-preview-wrapper.hide
+                    .js-preview.preview-content
+        .content.js-content
+            h2
+                |Slides content
+            .content-fields
+                .content-upload
+                    .content-title
+                        p.title
+                            | Title
+                        p(data-inputid='99').js-input-floating-label
+                            |Enter the title here
+                        input(type='text' name='title' data-inputid='99').js-title.js-input.input
+                    //p.js-show-avaialable-imgs.show-available
+                        | Show uploaded images
+                    .content-legalNotes
+                        p.title
+                            |Legal Notes
+                        .checkbox-item
+                            p(data-id=98).disabled.js-custom-checkboxes
+                                | LONG
+                            div(data-id=98).slider.js-disable-anim
+                                div(data-id=98).slider-toggle.js-disable-anim-movableElement.js-legal-notes-trigger
+                            p(data-id=98).js-custom-checkboxes
+                                | SHORT
+                        .short.js-short-legalNotes
+                            p.label.js-input-legal-label.active
+                                |Enter <strong>Legal Note</strong> text here
+                            input(type='text' value='TCP APPLY' data-id='97').input.js-input.js-legal-note-short
+                        .long.js-long-legalNotes.hide.js-input
+                            p.label.label-textarea.js-longLegalNote-label
+                                | Enter <strong>Legal Note</strong> text here
+                            textarea(type='text').input.js-legal-note-long
+
+                    .content-availableImgs.hide.js-available-images
+                        each val, index in images
+                            p
+                                | #{val}&nbsp;&nbsp; <i data-name='#{val}' class="far fa-trash-alt js-delete-single-img"></i>
+                form(action="/upload" id="images-form" enctype="multipart/form-data" method='POST').content-fields-wrapper.js-slides-content-wrapper
+                    each val, index in [1,2,3,4,5,6,7,8,9,10]
+                        div(data-id=val).content-fields-single.js-content-field-wrapper.hide.withLink
+                            p(data-inputid=val).label.js-input-floating-label.label-1
+                                |Enter <strong>main</strong> slide text
+                            input(type='text'  data-id=val data-inputid=val).js-main-text.js-input
+                            p(data-inputid2=val).label.label-2.js-input-floating-label
+                                | Enter <strong>additional</strong> text
+                            input(type='text' data-id=val data-inputid2=val).js-additional-text.js-input
+                            .file-wrapper.file-wrapper-1
+                                p
+                                    |Add background graphic
+                                img(src='./public/styling-images/folder-white.png' data-id=val ).js-input-file-img
+                                img(src='./public/styling-images/folder-yellow.png' data-id=val).js-input-file-yellow-img.hide
+                                img(src='./public/styling-images/folder-gray.png' data-id=val).js-input-file-gray-img.hide
+                                input(type='file' data-id=val name='images').file.js-select-main-background
+                                span(data-id=val).js-main-background-name
+                                div(data-id=val).js-main-image-preview.hide
+                            div(data-id=val).file-wrapper.file-wrapper-2.js-anim-file-wrapper.hide-opacity
+                                p
+                                    |Add second animation graphic
+                                img(src='./public/styling-images/folder-white.png' data-id=val).js-input-anim-file-img
+                                img(src='./public/styling-images/folder-yellow.png' data-id=val).js-input-file-anim-yellow-img.hide
+                                img(src='./public/styling-images/folder-gray.png' data-id=val).js-input-file-anim-gray-img.hide
+                                input(type='file' data-id=val name='images').file.file-anim.js-select-anim-background.hide-opacity
+                                span(data-id=val).js-anim-background-name
+                                div(data-id=val).js-anim-image-preview.hide
+                            p(data-id=val).delete.js-delete-slide
+                                |<strong>Delete</strong> this slide
+                            div(data-id=val).checkbox.js-anim-custom-checkbox
+                                p.head
+                                    | animation:
+                                .checkbox-item
+                                    p(data-id=val).disabled.js-custom-checkboxes
+                                        | ON
+                                    div(data-id=val).slider.js-disable-anim
+                                        div(data-id=val).slider-toggle.js-disable-anim-movableElement
+                                    p(data-id=val).js-custom-checkboxes
+                                        | OFF
+                .content-fields-add
+                    i.fas.fa-plus-circle.js-add-slide
+                    //i.fas.fa-minus-circle.js-remove-slide.hide
+            .content-buttons
+                p.generate.js-generate
+                    |Generate
+        img(src='./public/styling-images/small-plus.png').smallPlus
+        .output.js-output-wrapper.hide
+
+            h2
+                |Output
+            .container.js-loader
+                .ball
+                span Loading
+            span.js-outputContent.hide-opacity
+                .js-banner-wrapper.output-slider
+            .output-arrows.js-output-arrows
+                i.fas.fa-angle-left.js-arrow-left
+                i.fas.fa-angle-right.js-arrow-right
+            .output-download
+                p.generate.download.js-download.hide
+                    | Download and Save
+
+
+
+
+
+
+
+
+
+
+

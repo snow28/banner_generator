@@ -1,0 +1,19 @@
+.output-slider .banner {
+  margin: auto;
+  color: white; }
+  .output-slider .banner p {
+    text-transform: uppercase;
+    position: relative;
+    left: 15px;
+    margin-top: 0px; }
+    .output-slider .banner p:first-child {
+      font-size: 32px;
+      margin-bottom: 5px;
+      font-weight: 600;
+      top: 10px; }
+    .output-slider .banner p:last-child {
+      font-size: 18px;
+      margin-left: 4px;
+      top: 10px; }
+
+/*# sourceMappingURL=slider.css.map */

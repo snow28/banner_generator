@@ -1,0 +1,57 @@
+.header {
+  -webkit-box-shadow: 0px 5px 22px -5px rgba(0, 0, 0, 0.14);
+          box-shadow: 0px 5px 22px -5px rgba(0, 0, 0, 0.14);
+  height: 180px;
+  width: 100%;
+  background-image: url(../styling-images/header-background.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-transform: uppercase;
+  position: relative; }
+  .header h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    font-weight: 600;
+    letter-spacing: 4px;
+    cursor: pointer;
+    margin-top: 30px; }
+  .header-history {
+    letter-spacing: 1px;
+    font-size: 14px;
+    color: #7c7c7c;
+    font-weight: 600;
+    cursor: pointer;
+    padding-bottom: 4px;
+    padding-left: 10px;
+    padding-right: 20px; }
+    .header-history:hover {
+      border-bottom: 1px solid #7c7c7c; }
+      .header-history:hover:after {
+        content: "";
+        background-image: url(../styling-images/arrow.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        width: 13px;
+        height: 8px;
+        position: absolute;
+        margin-left: 7px;
+        margin-top: 3px;
+        -webkit-transform: rotate(-90deg);
+                transform: rotate(-90deg); }
+
+/*# sourceMappingURL=header.css.map */

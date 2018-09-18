@@ -1,0 +1,159 @@
+
+//variables
+$text-black: #3e3e3e
+$yellow : #ffcc16
+$gray : #d0d0d0
+$border-gray : #d5d5d5
+$background-gray : #f7f7f7
+$green-btn : #7dcb5d
+$text-gray : #6a6a6a
+
+
+
+
+//Global classes
+
+.label
+  position: absolute
+  font-weight: 500
+  font-size: 16px
+  transition-duration: 0.2s
+  pointer-events: none
+  color: $text-gray
+  strong
+    font-weight: 600
+  &.active
+    font-size: 10px
+
+
+
+
+.input
+  border: 1px solid $gray
+  display: flex
+  align-items: center
+  font-weight: 500
+  min-width: 360px
+  height: 60px
+  text-align: center
+  font-size: 16px
+  margin: 10px 0
+  &.file
+    border: none
+  &:focus
+    outline: none
+
+
+.content-wrapper
+  max-width: 100vw
+  overflow: hidden
+  width: 100vw
+  font-family: 'Montserrat', sans-serif
+  color: $text-black
+  background-color: $background-gray
+
+.inner-content-wrapper
+  background-color: $background-gray
+  .bigPlus
+    position: absolute
+    margin-left: 10%
+    margin-top: -270px
+  .smallPlus
+    float: right
+    position: relative
+    left: -40px
+    top: -500px
+    @media screen and (max-width: 1620px)
+      left: -1.5%
+
+
+
+
+
+
+
+h2
+  letter-spacing: 2px
+p
+  letter-spacing: 1px
+
+body
+  width: 100vw
+  max-width: 100vw
+  overflow-x: hidden
+
+select,input,li,ul,span,h3,textarea
+  font-family: 'Montserrat', sans-serif
+  &:focus
+    outline: none
+
+input
+  letter-spacing: 1px
+
+.submit
+  cursor: pointer
+
+a
+  text-decoration: none
+
+.center
+  width: 100%
+  text-align: center
+
+.show-flex
+  display: flex !important
+
+.hide
+  display: none !important
+  &:after
+    display: none
+  &:before
+    display: none
+
+.hide-opacity
+  opacity: 0
+  display: block
+  height: 0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

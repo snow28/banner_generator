@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300");
+@-webkit-keyframes pulse {
+  0%, 100% {
+    opacity: 1; }
+  50% {
+    opacity: 0.25; } }
+@keyframes pulse {
+  0%, 100% {
+    opacity: 1; }
+  50% {
+    opacity: 0.25; } }
+@-webkit-keyframes load {
+  0%, 100% {
+    -webkit-transform: scale(1) translateX(0);
+    transform: scale(1) translateX(0); }
+  25% {
+    -webkit-transform: scale(0.25) translateX(-6.5em);
+    transform: scale(0.25) translateX(-6.5em); }
+  50% {
+    -webkit-transform: scale(0.15) translateX(0);
+    transform: scale(0.15) translateX(0); }
+  75% {
+    -webkit-transform: scale(0.25) translateX(6.5em);
+    transform: scale(0.25) translateX(6.5em); } }
+@keyframes load {
+  0%, 100% {
+    -webkit-transform: scale(1) translateX(0);
+    transform: scale(1) translateX(0); }
+  25% {
+    -webkit-transform: scale(0.25) translateX(-6.5em);
+    transform: scale(0.25) translateX(-6.5em); }
+  50% {
+    -webkit-transform: scale(0.15) translateX(0);
+    transform: scale(0.15) translateX(0); }
+  75% {
+    -webkit-transform: scale(0.25) translateX(6.5em);
+    transform: scale(0.25) translateX(6.5em); } }
+.ball {
+  width: 1em;
+  height: 1em;
+  margin: 0 auto;
+  border-radius: 1em;
+  background: black;
+  -webkit-animation: load 2000ms linear infinite;
+  animation: load 2000ms linear infinite; }
+
+.container {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 40px; }
+  .container span {
+    font-weight: 600;
+    margin-top: 5px;
+    display: block;
+    color: black;
+    text-transform: uppercase;
+    font-family: "Roboto", sans-serif;
+    -webkit-animation: pulse 2000ms linear infinite;
+    animation: pulse 2000ms linear infinite; }
+
+/*# sourceMappingURL=loader.css.map */

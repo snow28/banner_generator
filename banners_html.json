@@ -1,0 +1,219 @@
+{
+  "banners_html": [
+    {
+      "title": "468-no-btn",
+      "html": "<div class=\"js-banner-wrapper output-slider template-normal width-468 long-legal-notes\" style=\"width: 468px;\"><div class=\"banner js-banner width-468\" data-animated=\"false\" data-id=\"1\" style=\"background-image: url('./img/without-btn-728x90.png'); width: 468px; height: 60px; font-family: Montserrat, sans-serif;\"><p class=\"js-banner-main-text\" data-id=\"1\">50 ENERGYSPINS</p><p class=\"js-banner-additional-text\" data-id=\"1\">NO DEPOSIT BONUS</p></div><div class=\"banner js-banner width-468\" data-animated=\"false\" data-id=\"2\" style=\"background-image: url('./img/without-btn-728x90.png'); width: 468px; height: 60px; font-family: Montserrat, sans-serif;\"><p class=\"js-banner-main-text\" data-id=\"2\">100% WELCOME BONUS UP TO $200</p><p class=\"js-banner-additional-text\" data-id=\"2\">+ 5 SUPER SPINS</p></div><div class=\"banner js-banner width-468\" data-animated=\"false\" data-id=\"3\" style=\"background-image: url('./img/without-btn-728x90.png'); width: 468px; height: 60px; font-family: Montserrat, sans-serif;\"><p class=\"js-banner-main-text\" data-id=\"3\">100% RELOAD BONUS UP TO $200</p><p class=\"js-banner-additional-text\" data-id=\"3\">+ 50 ENERGYSPINS</p></div></div>",
+      "folder_name": "468-no-btn&1536065539356.zip",
+      "date": "4/9/2018",
+      "height": "60",
+      "width": "468",
+      "template": "template-normal",
+      "slides_content": [
+        {
+          "number": 1,
+          "mainText": "50 ENERGYSPINS",
+          "additionalText": "NO DEPOSIT BONUS",
+          "mainImage": "without-btn-728x90.png"
+        },
+        {
+          "number": 2,
+          "mainText": "100% WELCOME BONUS UP TO $200",
+          "additionalText": "+ 5 SUPER SPINS",
+          "mainImage": "without-btn-728x90.png"
+        },
+        {
+          "number": 3,
+          "mainText": "100% RELOAD BONUS UP TO $200",
+          "additionalText": "+ 50 ENERGYSPINS",
+          "mainImage": "without-btn-728x90.png"
+        },
+        {
+          "number": 1,
+          "mainText": "50 ENERGYSPINS",
+          "additionalText": "NO DEPOSIT BONUS",
+          "mainImage": "without-btn-728x90.png"
+        },
+        {
+          "number": 2,
+          "mainText": "100% WELCOME BONUS UP TO $200",
+          "additionalText": "+ 5 SUPER SPINS",
+          "mainImage": "without-btn-728x90.png"
+        },
+        {
+          "number": 3,
+          "mainText": "100% RELOAD BONUS UP TO $200",
+          "additionalText": "+ 50 ENERGYSPINS",
+          "mainImage": "without-btn-728x90.png"
+        },
+        {
+          "number": 1,
+          "mainText": "50 ENERGYSPINS",
+          "additionalText": "NO DEPOSIT BONUS",
+          "mainImage": "without-btn-728x90.png"
+        },
+        {
+          "number": 2,
+          "mainText": "100% WELCOME BONUS UP TO $200",
+          "additionalText": "+ 5 SUPER SPINS",
+          "mainImage": "without-btn-728x90.png"
+        },
+        {
+          "number": 3,
+          "mainText": "100% RELOAD BONUS UP TO $200",
+          "additionalText": "+ 50 ENERGYSPINS",
+          "mainImage": "without-btn-728x90.png"
+        }
+      ]
+    },
+    {
+      "title": "728-no-btn",
+      "html": "<div class=\"js-banner-wrapper output-slider template-normal width-728 long-legal-notes\" style=\"width: 728px;\"><div class=\"banner js-banner width-728\" data-animated=\"false\" data-id=\"1\" style=\"background-image: url('./img/without-btn-728x90.png'); width: 728px; height: 90px; font-family: Montserrat, sans-serif;\"><p class=\"js-banner-main-text\" data-id=\"1\">100% RELOAD BONUS UP TO $200</p><p class=\"js-banner-additional-text\" data-id=\"1\">100% RELOAD BONUS UP TO $200</p></div></div>",
+      "folder_name": "728-no-btn&1536065777401.zip",
+      "date": "4/9/2018",
+      "height": "90",
+      "width": "728",
+      "template": "template-normal",
+      "slides_content": [
+        {
+          "number": 1,
+          "mainText": "100% RELOAD BONUS UP TO $200",
+          "additionalText": "100% RELOAD BONUS UP TO $200",
+          "mainImage": "without-btn-728x90.png"
+        }
+      ]
+    },
+    {
+      "title": "768-btn",
+      "html": "<div class=\"js-banner-wrapper output-slider template-button width-728 long-legal-notes\" style=\"width: 728px;\"><div class=\"banner js-banner width-728\" data-animated=\"false\" data-id=\"1\" style=\"background-image: url('./img/728x90-with-btn.png'); width: 728px; height: 90px; font-family: Teko, sans-serif;\"><p class=\"js-banner-main-text\" data-id=\"1\">100% RELOAD BONUS UP TO $200</p><p class=\"js-banner-additional-text\" data-id=\"1\">+ 50 ENERGYSPINS</p><a href=\"https://translate.google.com/\" data-id=\"1\" class=\"js-slide-link\">Sign in</a></div></div>",
+      "folder_name": "768-btn&1536065920776.zip",
+      "date": "4/9/2018",
+      "height": "90",
+      "width": "728",
+      "template": "template-button",
+      "slides_content": [
+        {
+          "number": 1,
+          "mainText": "100% RELOAD BONUS UP TO $200",
+          "additionalText": "+ 50 ENERGYSPINS",
+          "mainImage": "728x90-with-btn.png"
+        }
+      ]
+    },
+    {
+      "title": "btn-468",
+      "html": "<div class=\"js-banner-wrapper output-slider template-button width-468 long-legal-notes\" style=\"width: 468px;\"><div class=\"banner js-banner width-468\" data-animated=\"false\" data-id=\"1\" style=\"background-image: url('./img/468x60-btn.png'); width: 468px; height: 60px; font-family: Teko, sans-serif;\"><p class=\"js-banner-main-text\" data-id=\"1\">100% RELOAD BONUS UP TO $200</p><p class=\"js-banner-additional-text\" data-id=\"1\">+ 50 ENERGYSPINS</p><a href=\"https://translate.google.com/\" data-id=\"1\" class=\"js-slide-link\">Sign in</a></div></div>",
+      "folder_name": "btn-468&1536065937561.zip",
+      "date": "4/9/2018",
+      "height": "60",
+      "width": "468",
+      "template": "template-button",
+      "slides_content": [
+        {
+          "number": 1,
+          "mainText": "100% RELOAD BONUS UP TO $200",
+          "additionalText": "+ 50 ENERGYSPINS",
+          "mainImage": "468x60-btn.png"
+        }
+      ]
+    },
+    {
+      "title": "120-no-btn",
+      "html": "<div class=\"js-banner-wrapper output-slider template-normal width-120\" style=\"width: 120px;\"><div class=\"banner js-banner width-120\" data-animated=\"false\" data-id=\"1\" style=\"background-image: url('./img/120x600-new.png'); width: 120px; height: 600px; font-family: Montserrat, sans-serif;\"><p class=\"js-banner-main-text\" data-id=\"1\"><span>100%</span> WELCOME BONUS</p><p class=\"js-banner-additional-text\" data-id=\"1\"><span>UP TO $200</span> + 50 ENERGYSPINS</p></div></div>",
+      "folder_name": "120-no-btn&1536066300393.zip",
+      "date": "4/9/2018",
+      "height": "600",
+      "width": "120",
+      "template": "template-normal",
+      "slides_content": [
+        {
+          "number": 1,
+          "mainText": "<span>100%</span> WELCOME BONUS",
+          "additionalText": "<span>UP TO $200</span> + 50 ENERGYSPINS",
+          "mainImage": "120x600-new.png"
+        }
+      ]
+    },
+    {
+      "title": "120-no-btn-long-legal",
+      "html": "<div class=\"js-banner-wrapper output-slider template-normal width-120 long-legal-notes\" style=\"width: 120px;\"><div class=\"banner js-banner width-120\" data-animated=\"false\" data-id=\"1\" style=\"background-image: url('./img/120x600-new.png'); width: 120px; height: 600px; font-family: Montserrat, sans-serif;\"><p class=\"js-banner-main-text\" data-id=\"1\"><span>100%</span> WELCOME BONUS</p><p class=\"js-banner-additional-text\" data-id=\"1\"><span>UP TO $200</span> + 50 ENERGYSPINS</p></div></div>",
+      "folder_name": "120-no-btn-long-legal&1536066798010.zip",
+      "date": "4/9/2018",
+      "height": "600",
+      "width": "120",
+      "template": "template-normal",
+      "slides_content": [
+        {
+          "number": 1,
+          "mainText": "<span>100%</span> WELCOME BONUS",
+          "additionalText": "<span>UP TO $200</span> + 50 ENERGYSPINS",
+          "mainImage": "120x600-new.png"
+        },
+        {
+          "number": 1,
+          "mainText": "<span>100%</span> WELCOME BONUS",
+          "additionalText": "<span>UP TO $200</span> + 50 ENERGYSPINS",
+          "mainImage": "120x600-new.png"
+        }
+      ]
+    },
+    {
+      "title": "120-btn-long-legal",
+      "html": "<div class=\"js-banner-wrapper output-slider template-button width-120 long-legal-notes\" style=\"width: 120px;\"><div class=\"banner js-banner width-120\" data-animated=\"false\" data-id=\"1\" style=\"background-image: url('./img/120x600-new.png'); width: 120px; height: 600px; font-family: Teko, sans-serif;\"><p class=\"js-banner-main-text\" data-id=\"1\"><span>100%</span> WELCOME BONUS</p><p class=\"js-banner-additional-text\" data-id=\"1\"><span>UP TO $200</span> + 50 ENERGYSPINS</p><a href=\"https://translate.google.com/\" data-id=\"1\" class=\"js-slide-link\">Sign in</a></div></div>",
+      "folder_name": "120-btn-long-legal&1536067652436.zip",
+      "date": "4/9/2018",
+      "height": "600",
+      "width": "120",
+      "template": "template-button",
+      "slides_content": [
+        {
+          "number": 1,
+          "mainText": "<span>100%</span> WELCOME BONUS",
+          "additionalText": "<span>UP TO $200</span> + 50 ENERGYSPINS",
+          "mainImage": "120x600-new.png"
+        }
+      ]
+    },
+    {
+      "title": "160x600-btn-long-legal",
+      "html": "<div class=\"js-banner-wrapper output-slider template-button width-160 long-legal-notes\" style=\"width: 160px;\"><div class=\"banner js-banner width-160\" data-animated=\"false\" data-id=\"1\" style=\"background-image: url('./img/160x600-new.png'); width: 160px; height: 600px; font-family: Montserrat, sans-serif;\"><p class=\"js-banner-main-text\" data-id=\"1\"><span>100%</span> WELCOME BONUS</p><p class=\"js-banner-additional-text\" data-id=\"1\"><span>UP TO $200</span> + 50 ENERGYSPINS</p><a href=\"https://translate.google.com/\" data-id=\"1\" class=\"js-slide-link\">Sign in</a></div></div>",
+      "folder_name": "160x600-btn-long-legal&1536068720365.zip",
+      "date": "4/9/2018",
+      "height": "600",
+      "width": "160",
+      "template": "template-button",
+      "slides_content": [
+        {
+          "number": 1,
+          "mainText": "<span>100%</span> WELCOME BONUS",
+          "additionalText": "<span>UP TO $200</span> + 50 ENERGYSPINS",
+          "mainImage": "160x600-new.png"
+        }
+      ]
+    },
+    {
+      "title": "TEST",
+      "html": "<div class=\"js-banner-wrapper output-slider template-button width-160\" data-duration=\"3000\" style=\"width: 160px;\"><a href=\"#\" class=\"js-slide-link\"><div class=\"banner js-banner width-160\" data-animated=\"false\" data-id=\"1\" style=\"background-image: url('./img/160x600-new.png'); width: 160px; height: 600px; font-family: Teko, sans-serif;\"><p class=\"js-banner-main-text\" data-id=\"1\">test</p><p class=\"js-banner-additional-text\" data-id=\"1\">test</p><span class=\"link\">Sign in</span></div></a></div>",
+      "folder_name": "TEST&1537259418686.zip",
+      "date": "18/9/2018",
+      "height": "600",
+      "width": "160",
+      "template": "template-button",
+      "slides_content": [
+        {
+          "number": 1,
+          "mainText": "test",
+          "additionalText": "test",
+          "mainImage": "160x600-new.png"
+        },
+        {
+          "number": 1,
+          "mainText": "test",
+          "additionalText": "test",
+          "mainImage": "160x600-new.png"
+        }
+      ],
+      "legal_note": "TCP APPLY",
+      "legalNoteType": "short"
+    }
+  ]
+}

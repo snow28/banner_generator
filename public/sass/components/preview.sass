@@ -1,0 +1,117 @@
+.preview
+  background-color: white
+  width: 90%
+  margin: auto
+  padding-top: 45px
+  position: relative
+  z-index: 9
+  &-content
+    padding: 20px
+    display: flex
+    flex-wrap: wrap
+    min-height: 600px
+    &-item
+      width: 25%
+      min-width: 200px
+      max-width: 400px
+      max-height: 400px
+      overflow: hidden
+      padding: 4px
+      .del-edit-wrapper
+        display: flex
+        flex-direction: row-reverse
+        div:first-child
+          margin-left: 18px
+      .output-slider
+        div
+          display: flex !important
+          a
+            position: relative
+        div:nth-child(n+2)
+          display: none !important
+      .blure
+        background-image: url(../styling-images/blur.png)
+        width: 340px
+        height: 116px
+        box-shadow: inset 0px -62px 40px 16px rgba(255,255,255,1)
+        &-height
+          margin-top: -397px
+          margin-left: -41px
+          transform: rotate(3deg)
+        &-width
+          transform: rotate(-87deg)
+          margin-left: 191px
+          margin-top: -80px
+      .time-del
+        display: flex
+        flex-direction: row-reverse
+        justify-content: space-between
+        width: 80%
+        margin-left: 10%
+        margin-bottom: 5px
+        .date
+          font-weight: 600
+          font-size: 12px
+        i
+          font-size: 18px
+          cursor: pointer
+          transition-duration: 0.2s
+          position: relative
+          z-index: 99
+          &.delete
+            color: red
+          &.edit
+            color: $yellow
+          &:hover
+            transform: scale(1.2)
+      a
+        h4
+          position: relative
+          z-index: 99
+          white-space: nowrap
+          overflow: hidden
+          text-overflow: ellipsis
+          text-align: center
+          font-weight: 600
+          color: $text-black
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

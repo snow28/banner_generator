@@ -1,0 +1,31 @@
+doctype html
+html
+    head
+        title Banner Generator
+        link(rel='icon' href='./favicon-16.png')
+        link(rel='stylesheet' href='//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css')
+        link(rel='stylesheet' href='https://fonts.googleapis.com/css?family=Oswald')
+        link(rel='stylesheet' href='https://fonts.googleapis.com/css?family=Teko:300,400,500,600,700')
+        link(rel='stylesheet' href='https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,600,700,800')
+        link(rel='stylesheet' href='./public/css/reset.css')
+        link(rel='stylesheet' href='./public/css/style.css')
+        link(rel='stylesheet' href='https://use.fontawesome.com/releases/v5.2.0/css/all.css' )
+    body
+        .content-wrapper
+            .header
+                h1.js-main-header
+                    | Banner Generator
+                p.js-open-history.header-history
+                    | Open Banners History
+            block content
+            .footer
+                p
+                    |Proudly made by EnergyTeam
+        script(src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js')
+        script(src='https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.2/jquery.form.min.js')
+        script(src='//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js')
+        script(src='./public/js/cleaned.js')
+
+
+
+

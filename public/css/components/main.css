@@ -1,0 +1,10 @@
+@media screen and (min-width: 1000px) {
+  .content {
+    height: 100%;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 80%;
+    margin-left: 20%; } }
+
+/*# sourceMappingURL=main.css.map */

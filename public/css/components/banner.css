@@ -1,0 +1,17 @@
+.banner {
+  margin: auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  color: white;
+  padding: 15px; }
+  .banner p {
+    text-transform: uppercase; }
+    .banner p:first-child {
+      font-size: 32px;
+      margin-bottom: 5px;
+      font-weight: 600; }
+    .banner p:last-child {
+      font-size: 18px;
+      margin-left: 4px; }
+
+/*# sourceMappingURL=banner.css.map */
